@@ -44,7 +44,8 @@ public class UnstackItems : MonoBehaviour
             }
         if (ClientBannerRotation.clientBanerCount > pizzaParent.childCount - 1)
         {
-            Time.timeScale = 0;
+            GameManager._isPlay = false;
+            //Time.timeScale = 0;
         }
     }
 }

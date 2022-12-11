@@ -43,8 +43,9 @@ public class PlayerMoving : MonoBehaviour
     {
         if (other.CompareTag("Car"))
         {
-            losePanel.SetActive(true);
-            Time.timeScale = 0;
+            GameManager._isPlay = false;
+            //losePanel.SetActive(true);
+           // Time.timeScale = 0;
 
         }
     }

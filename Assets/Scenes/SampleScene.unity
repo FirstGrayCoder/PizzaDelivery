@@ -1425,6 +1425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playButton: {fileID: 770281160}
+  losePanel: {fileID: 601931930}
 --- !u!1 &1771325548
 GameObject:
   m_ObjectHideFlags: 0
